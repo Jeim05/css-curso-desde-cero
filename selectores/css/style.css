@@ -24,7 +24,7 @@ h2 {
 }
 
 /* SELECTORES DE ATRIBUTO 
-Este atributo debe ir encerrado en corchetes []*/
+Este atributo debe ir encerrado en corchetes [], ese atributo puede ser href, src, class*/
 [href]{
   text-decoration: none;
 }
@@ -34,7 +34,17 @@ Este atributo debe ir encerrado en corchetes []*/
   color: darkred;
 }
 
-/* Este selector selecciona los elementos que tenga href y que la url inicie por hsttps */
+/* Este selector selecciona los elementos que tenga al principio del href el texto indicado 'hsttps' */
 [href^="hsttps"] {
   color: darkolivegreen;
+}
+
+/* Ahora con este selector va a seleccionar los elementos que contengan el dominio org. Lleva el simbolo de dolar para indicar que esa busqueda debe estar al final de la url */
+[href$="org"]{
+  background: steelblue;
+  color: white;
+}
+/* Con este selector decimos que selecciones todos los href que contengan la palabra alex */
+[href*="alexcgdesign"]{
+  background: darksalmon;
 }
