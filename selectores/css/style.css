@@ -1,0 +1,40 @@
+h2 {
+  color: steelblue;
+}
+
+.alex {
+  border: 1px solid black;
+}
+/* No es buena practica utilizar selectores de id, ya que con este selector cada propiedad cada elemento tendria un estilo diferente y se volverìa muy tedioso a la hora de manejar, por eso es màs recomendable usar selectores de clases */
+#section {
+  border: 1px solid black;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.😁{
+  color: darkblue;
+}
+
+.😂{
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+/* SELECTORES DE ATRIBUTO 
+Este atributo debe ir encerrado en corchetes []*/
+[href]{
+  text-decoration: none;
+}
+
+/* Cambia de color a todos los href con esa url */
+[href="https://alexcgdesign.com/inicio"]{
+  color: darkred;
+}
+
+/* Este selector selecciona los elementos que tenga href y que la url inicie por hsttps */
+[href^="hsttps"] {
+  color: darkolivegreen;
+}
