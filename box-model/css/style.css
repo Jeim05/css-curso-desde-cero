@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+}
+
+.box1 {
+  background: steelblue;
+}
+
+.box2 {
+  background: tomato;
+}
