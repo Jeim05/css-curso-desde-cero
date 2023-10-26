@@ -2,3 +2,28 @@ h2,h3{
     font-size: 25px;
     font-family: 'Arial';
 }
+
+/*El simbolo de mayor que indica que sea un hijo directo de esa clase */
+.contenedor>p{
+    color: lightcoral;
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Selector de hermano adyacente, esto quiere decir que este un elemento seguido del otro, especificando este selector solo va a modificar el elemento del elemento que especifiquemos, solo al siguiente, por eso se les llama adyacentes */
+h2+p{
+    color: gold;
+}
+
+/* Si se especifica de la siguiente manera va a seleccionar a todos los elementos que estan despues de un elemento especifico, en el siguiente ejemplo, va a seleccionar a todos los p que esten después del h3*/
+h3~p{
+    color: indigo;
+}
