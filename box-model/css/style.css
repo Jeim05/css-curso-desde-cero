@@ -1,3 +1,4 @@
+/*Elimina el margen de toda la pagina*/
 body {
   margin: 0;
 }
@@ -9,8 +10,14 @@ body {
 
 .box1 {
   background: steelblue;
+ /*  margin: top right bottom left; El orden va de acuerdo a las manecillas del reloj*/ 
 }
 
 .box2 {
+  padding: 20px;
   background: tomato;
+  margin-top: 30px;
+  margin-left: 20px;
+  overflow: hidden;
+  border: 2px solid steelblue;
 }

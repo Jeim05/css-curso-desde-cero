@@ -1,24 +1,30 @@
+/*De esta manera se aplica a los h2 y h3 la misma propiedad*/
 h2,h3{
     font-size: 25px;
     font-family: 'Arial';
 }
 
+/*COMBINADOR HIJO*/
 /*El simbolo de mayor que indica que sea un hijo directo de esa clase */
 .contenedor>p{
     color: lightcoral;
 }
 
+/*Este es un selector de descendientes, ya que se agrega la clase y los elementos a que esten dentro de esa clase
+contenedor*/
 .contenedor a{
     text-decoration: none;
     color: firebrick;
 }
 
+/*SELECTOR DE HIJO DIRECTO*/
 .contenedor>a{
     font-size: 20px;
     font-weight: bold;
 }
 
-/* Selector de hermano adyacente, esto quiere decir que este un elemento seguido del otro, especificando este selector solo va a modificar el elemento del elemento que especifiquemos, solo al siguiente, por eso se les llama adyacentes */
+/* RETO 4 / Selector de hermano adyacente
+Esto quiere decir que este un elemento seguido del otro, especificando este selector solo va a modificar el elemento del elemento que especifiquemos, solo al siguiente, por eso se les llama adyacentes */
 h2+p{
     color: gold;
 }

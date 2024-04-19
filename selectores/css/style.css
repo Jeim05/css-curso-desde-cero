@@ -1,12 +1,25 @@
+/*SELECTOR UNIVERSAL
+
+*{
+  color: red;
+}
+
+/*
+
+/* SELECTORES DE TIPO O ETIQUETA
+Por lo que cambia el estilo a todas los elementos con la misma etiqueta
+*/
+
+/*nav{
+  background: steelblue;
+}*/
+
 h2 {
   color: steelblue;
 }
 
+/* SELECTORES DE CLASES*/
 .alex {
-  border: 1px solid black;
-}
-/* No es buena practica utilizar selectores de id, ya que con este selector cada propiedad cada elemento tendria un estilo diferente y se volverìa muy tedioso a la hora de manejar, por eso es màs recomendable usar selectores de clases */
-#section {
   border: 1px solid black;
 }
 
@@ -23,10 +36,27 @@ h2 {
   font-size: 20px;
 }
 
+/*
+SELECTORES DE ID
+
+No es buena practica utilizar selectores de id, ya que con este selector cada propiedad cada elemento tendria
+un estilo diferente y se volverìa muy tedioso a la hora de manejar, por eso es màs recomendable usar selectores de clases 
+*/
+#section {
+  border: 1px solid black;
+}
+
 /* SELECTORES DE ATRIBUTO 
 Este atributo debe ir encerrado en corchetes [], ese atributo puede ser href, src, class*/
+ /* Con este ejemplo estamos diciendo que todos los elementos que tengan un href se les aplique esa proiedad*/
 [href]{
   text-decoration: none;
+}
+
+/*Pero se puede ser más espeficico agregando el elemento antes del atributo con los corchetes
+o una clase, veamos el ejemplo*/
+h2[class]{
+  color: brown;
 }
 
 /* Cambia de color a todos los href con esa url */
@@ -44,7 +74,7 @@ Este atributo debe ir encerrado en corchetes [], ese atributo puede ser href, sr
   background: steelblue;
   color: white;
 }
-/* Con este selector decimos que selecciones todos los href que contengan la palabra alex */
+/* Con este selector decimos que selecciones todos los href que contengan la palabra alexcgdesign */
 [href*="alexcgdesign"]{
   background: darksalmon;
 }

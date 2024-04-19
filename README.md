@@ -1,2 +1,6 @@
 # CSS COURSE
-This is a Udemy Course, where I learn Advanced CSS 
+Aprendiendo CSS, desde cero a Avanzado
+
+### Temas vistos
+- Selectores combinadores
+- 

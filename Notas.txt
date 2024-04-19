@@ -1,0 +1,9 @@
+Definiciones importantes
+
+CSS es un lenguaje de estilos para darle los estilos al documento HTML. 
+
+SINTAXIS CSS
+
+Selector: Hace referencia a los elementos a los que se les dara estilo. Define que elementos se van a modificar. 
+Propiedad: Propiedad que vamos a modificar o agregar. Ejemplos son el color, width.
+Valor: es la asignación que le datos a la propiedad dependiendo de cada tipo.  
